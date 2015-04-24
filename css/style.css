@@ -1,0 +1,24 @@
+#canvas{
+
+	margin-left: 50%;
+	margin-top: 20%;
+	font-size: 80px;
+
+}
+
+#about{
+
+	font-size: 18px;
+	color: #DD4B5F;
+	margin-left: 45%;
+	margin-top: 10%;
+
+}
+
+.font-black{
+	color: grey;
+}
+
+.bold{
+	font-weight: bold;
+}
