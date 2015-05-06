@@ -1,10 +1,10 @@
 'use strict';
 
-var allGlossaries;
-var getData = 	$.getJSON( "data/data.json", function( data ) {
+var allGlossaries = glossaryData;
+// var getData = 	$.getJSON( "data/data.json", function( data ) {
 
-					allGlossaries=data;
-				});
+// 					allGlossaries=data;
+// 				});
 
 var app = angular.module('theGoldenEgg', []);
 
