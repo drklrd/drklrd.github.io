@@ -3,7 +3,9 @@
 		<title>The Golden Egg</title>
 		<script src="scripts/jquery-2.1.3.min.js"></script> 
 		<script src="scripts/angular.min.js"></script>
-		<script src="data/data.js"></script>
+		<!--
+			<script src="data/data.js"></script>
+		-->
 		<script src="bootstrap/js/bootstrap.js"></script>
 		<script src="scripts/app.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
@@ -15,12 +17,12 @@
 
 		<div id="canvas" >
 			<span class="font-good glossaryStyle bold">
-				{{word}}
+				<div id="word"></div>
 			</span>
 			<br>
 			<hr class="separator">
 			<div class="font-grey font-size-19 adjustMinHeight">
-				{{meaning}}
+				<div id="meaning"></div>
 			</div>
 			<hr class="separatorReturns">
 			<div class="hatchNew">
@@ -39,8 +41,6 @@
 
 
 				</div>
-				
-				
 				
 
 			</div>
