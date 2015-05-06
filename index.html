@@ -24,10 +24,24 @@
 			</div>
 			<hr class="separatorReturns">
 			<div class="hatchNew">
-				<button class="glyphicon glyphicon-refresh no-styling font-size-15" ng-click="generator()"></button>
-				<span class="font-size-15">
-					Hatch me a new egg
-				</span>
+				<div class="row">
+					<div class="col-xs-1">
+						<button class="glyphicon glyphicon-refresh no-styling font-size-15" ng-click="generator()"></button>
+						<br>
+						<span class= "font-size-11 font-grey">
+					 		{{hatchedEggs}} / {{totalEggs}}
+						</span>
+					</div>
+
+					<span class="font-size-15">
+						Hatch me a new egg  
+					</span>
+
+
+				</div>
+				
+				
+				
 
 			</div>
 			
