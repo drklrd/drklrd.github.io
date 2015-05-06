@@ -25,7 +25,8 @@ app.controller('theGoldenEggController' , function($scope){
 					  		$scope.glossaries.push(allGlossaries[property]);
 					  		totalGlossaryItems++;
 						}
-						$scope.totalEggs = totalGlossaryItems;
+						// $scope.totalEggs = totalGlossaryItems;
+						$( "#totalEggs" ).html(totalGlossaryItems);
 						$scope.generator();
 					});
 
@@ -37,7 +38,8 @@ app.controller('theGoldenEggController' , function($scope){
 			$scope.generator();
 			
 		}else {
-			$scope.hatchedEggs = generatedKeys.length + 1;
+			// $scope.hatchedEggs = generatedKeys.length + 1;
+			$( "#hatchedEggs" ).html(generatedKeys.length + 1);
 			while(verifyKey !== 1){
 				generateKey = Math.floor(Math.random()* $scope.glossaries.length);
 				if(generatedKeys.indexOf(generateKey) === -1){
