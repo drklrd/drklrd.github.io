@@ -6,7 +6,7 @@ app.controller('theGoldenEggController' , function($scope){
 	
 	//Please edit the URL only . Provide your json data URL here
 
-	var jsonURL = "https://api.myjson.com/bins/4qq7p"; //EDIT HERE ONLY !!!!!
+	var jsonURL = "https://api.myjson.com/bins/wi4t"; //EDIT HERE ONLY !!!!!
 
 	// Do not mess with following codes.....
 
