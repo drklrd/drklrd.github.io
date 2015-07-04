@@ -113,3 +113,43 @@
 	min-height: 90px;
 	width: 500px;
 }
+
+html, body, #map-canvas {
+  height: 90%;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1000;
+}
+
+.spacer{
+	content: " ";
+	display: block;
+	padding-top: 50px;
+}
+
+#search_area{
+	margin-top: 5%;
+	margin-left: 35%;
+
+}
+
+
+#hi{
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 10px;
+	font-family: 'BandaRegular';
+	font-size: 20px;
+}
+.no-marign{
+	margin: 0px;
+}
+
+#map-area{
+	top: 20px;
+	position: relative;
+	width: 800px;
+	height: 500px;
+	left: 250px;
+}
+
