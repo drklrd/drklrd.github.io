@@ -5,10 +5,13 @@ var app = angular.module('map', ['interests']);
 app.controller('mapController' , function($scope){
 
 	var load_interests=interests.interests_map;
-
+	var swap ={};
+	for(var uniq in load_interests) {
+		swap[load_interests[uniq]]=uniq;
+	}
 	$scope.interests=[];
 
-	for(var interest in load_interests){
+	for(var interest in swap){
 		$scope.interests.push(interest);
 	}
 
@@ -27,11 +30,10 @@ app.controller('mapController' , function($scope){
 	    center: location,
 	    zoom: 15
 	  });
-
 	  var request = {
 	    location: location,
 	    radius: 2000,
-	    types: [load_interests[$scope.place_of_interest]] 
+	    types: [swap[$scope.place_of_interest]] 
 	  };
 	  infowindow = new google.maps.InfoWindow();
 	  var service = new google.maps.places.PlacesService(map);
