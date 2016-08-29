@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Map.JS</title>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+		<script src="scripts/jquery-2.1.3.min.js"></script> 
+		<script src="scripts/jquery-ui.js"></script>
+		<script src="scripts/angular.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="scripts/interests.js"></script>
+		<script src="scripts/map.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen" />
+
+	</head>
+
+	<body ng-app="map" ng-controller="mapController" >
+
+		<div id="hi">
+			<span>
+				Hi there ! I am MapBot and I can help you find what you are loooking for. But first please allow to share your location ! 
+			</span>
+			
+			<br>
+			<button type="button" class="btn btn-info btn-sm" ng-click="getCurrentLocation()">Accept To Share your current location!</button>
+
+		</div>
+
+		<div id="search_area">
+			<div class="row" ng-show="message">
+				<div class="col-xs-6">
+					<input class='form-control' type='text' id="tags" placeholder="Search for foods, movies,hospital,healthcare,gym ......" ng-model="place_of_interest"> 
+					</input>
+				</div>
+				<div class="col-xs-6 no-margin pull-left">
+					<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal" ng-click="initialize()">Search</button>
+				</div>
+			</div>
+		
+
+
+		<!-- Modal -->
+		<div id="myModal" class="modal " role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-body ">
+		        <div id="map-canvas"></div>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+
+	
+	
+
+	</body>
+
+</html>
