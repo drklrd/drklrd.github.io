@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>The Golden Egg</title>
+		<script src="scripts/jquery-2.1.3.min.js"></script> 
+		<script src="scripts/angular.min.js"></script>
+		<!--
+			<script src="data/data.js"></script>
+		-->
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="scripts/app.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen" />
+
+	</head>
+
+	<body ng-app="theGoldenEgg" ng-controller="theGoldenEggController">
+
+		<div id="canvas" >
+			<span class="font-good glossaryStyle bold">
+				<div id="word"></div>
+			</span>
+			<br>
+			<hr class="separator">
+			<div class="font-grey font-size-19 adjustMinHeight">
+				<div id="meaning"></div>
+			</div>
+			<hr class="separatorReturns">
+			<div class="hatchNew">
+				<div class="row">
+					<div class="col-xs-1">
+						<button class="glyphicon glyphicon-refresh no-styling font-size-15" ng-click="generator()"></button>
+						<br>
+						<span class= "font-size-11 font-grey">
+							<span id="hatchedEggs">	</span>
+							<span> / </span>
+							<span id="totalEggs">  </span>
+						</span>
+					</div>
+
+					<span class="font-size-15">
+						Hatch me a new egg.
+					</span>
+
+
+				</div>
+				
+
+			</div>
+			
+
+		</div>
+
+		
+		<div id="about">
+			<span class="font-color-red font-size-15">
+				The lord of the rings glossary
+			</span>
+			<span class="font-color-grey font-size-15">
+				- reload the page or click above to hatch a new egg
+			</span>
+			<div class="row">
+				<div class="col-xs-7 no-padding">
+					<div class="spacer margin-centralize">
+						<span>
+							the goldenEgg project
+						</span>
+						<span class="bold font-size-11"> | Powered by : Angular JS, jQuery </span>
+					</div>
+				</div>
+
+				
+
+			</div>
+			
+			
+
+		</div>
+
+	</body>
+
+</html>
