@@ -1,10 +1,13 @@
 ---
 layout: page
-title: About
+title: About blogger
 permalink: /about/
 ---
 
-Some information about you!
+
+```
+	const myself = ['art', 'travel', 'coding'];
+```
 
 ### Contact me
 
