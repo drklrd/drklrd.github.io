@@ -1,0 +1,5 @@
+baseURL = 'https://drklrd.github.io/'
+languageCode = "en-us"
+title = "codeScape"
+theme = "PaperMod"
+paginate =  5
