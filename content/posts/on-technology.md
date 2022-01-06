@@ -1,6 +1,6 @@
 ---
 title: "On Technology"
-date: 2018-10-01T10:18:17+05:45
+date: 2018-02-10T10:18:17+05:45
 draft: true
 ---
 

@@ -6,16 +6,7 @@
     <description>Recent content in Posts on codeScape</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Oct 2018 10:18:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>On Technology</title>
-      <link>https://drklrd.github.io/posts/on-technology/</link>
-      <pubDate>Mon, 01 Oct 2018 10:18:17 +0545</pubDate>
-      
-      <guid>https://drklrd.github.io/posts/on-technology/</guid>
-      <description>We usually talk about improving lives of people through the use of technology and simplifying things for them. But, I usually encounter people who are far above the reach of what we are doing. We talk about big things, while they are happy with any small thing they have. I have always believed that - technology, whatever advance it may be, can never be greater than the solution it brings. Hope we just don&amp;rsquo;t get involved in a futile technological pursuit while whom we fight for have already found some other simple way out.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 15 Mar 2018 10:18:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting the length of JSON object with command-line using jq</title>
       <link>https://drklrd.github.io/posts/jq/</link>
@@ -24,6 +15,15 @@
       <guid>https://drklrd.github.io/posts/jq/</guid>
       <description>There&amp;rsquo;s a lightweight and flexible command-line JSON processor called jq. It has wide range of capabilites but something that I came across lately and is quite useful for me is printing out the length of a JSON object.
 cat testjson.json | jq &#39;. | length&#39; </description>
+    </item>
+    
+    <item>
+      <title>On Technology</title>
+      <link>https://drklrd.github.io/posts/on-technology/</link>
+      <pubDate>Sat, 10 Feb 2018 10:18:17 +0545</pubDate>
+      
+      <guid>https://drklrd.github.io/posts/on-technology/</guid>
+      <description>We usually talk about improving lives of people through the use of technology and simplifying things for them. But, I usually encounter people who are far above the reach of what we are doing. We talk about big things, while they are happy with any small thing they have. I have always believed that - technology, whatever advance it may be, can never be greater than the solution it brings. Hope we just don&amp;rsquo;t get involved in a futile technological pursuit while whom we fight for have already found some other simple way out.</description>
     </item>
     
     <item>
