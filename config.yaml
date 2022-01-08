@@ -1,0 +1,22 @@
+baseURL: 'https://drklrd.github.io/'
+languageCode: "en-us"
+title: "codeScape"
+theme: "PaperMod"
+paginate: 5
+
+params:
+  # home-info mode
+  ShowShareButtons: true
+  homeInfoParams:
+    Title: "Namaste 🙏"
+    Content: >
+      Warm welcome to my blogging place! I am Saurav. I love building things with maps. Currently, I am helping build [Baato.io](https://baato.io).
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/srvbhattarai"
+    - name: github
+      url: "https://github.com/drklrd"
+    - name: openstreetmap
+      url: "https://www.openstreetmap.org/user/srvbhattarai"
+    
