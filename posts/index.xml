@@ -6,7 +6,17 @@
     <description>Recent content in Posts on codeScape</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Mar 2018 10:18:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jan 2022 10:18:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Few More Walks To Map Them All!</title>
+      <link>https://drklrd.github.io/posts/few-more-walks-to-map-them-all/</link>
+      <pubDate>Sat, 29 Jan 2022 10:18:17 +0545</pubDate>
+      
+      <guid>https://drklrd.github.io/posts/few-more-walks-to-map-them-all/</guid>
+      <description>I really love to walk. Walking is my best way of clearing my mind, thinking over something, or even to “un-think” of something. If a place is within walkable distance (and within a reasonable time), I prefer to walk.
+Lately, I have been on an evening mapping streak for some days with strolls around my neighborhood. It warms up the body in this colder season and provides a form of physical exercise.</description>
+    </item>
+    
     <item>
       <title>Getting the length of JSON object with command-line using jq</title>
       <link>https://drklrd.github.io/posts/jq/</link>
