@@ -1,10 +1,10 @@
 ---
 title: "When you don’t understand enough"
 date: 2018-01-21T10:18:17+05:45
-draft: true
+draft: false
 ---
 
-I had a difficult time with Asterisk server last Friday (January 19th ,2018). We were running an IVR (**_Interactive Voice Response_**) system with Asterisk and Digium TDM410P card on Ubuntu 16.04. The computer where Asterisk server was running went off and I had to restart the system. It was normally an easy process. Sometime the Dahdi configuration would mess-up and I had to recompile that (At that time, I didn't know why it needed to be recompiled, but it was also an easy task following the guide we had prepared). But all of a sudden, the source failed to compile. I kept on looking solutions for hours and it was quite frustrating. 
+I had a difficult time with Asterisk server last Friday (January 19th ,2018). We were running an IVR (**_Interactive Voice Response_**) system with Asterisk and Digium TDM410P card on Ubuntu 16.04. The computer where Asterisk server was running went off and I had to restart the system. It was normally an easy process. Sometime the Dahdi configuration would mess-up and I had to recompile that (At that time, I didn't know why it needed to be recompiled, but it was also an easy task following the guide we had prepared). But all of a sudden, the source failed to compile. I kept on looking solutions for hours and it was quite frustrating.
 
 I uninstalled and reinstalled the build tools many time. I thought may be the whole system was corrupted and tried compiling the source in my own working machine (also Ubuntu 16.04) with similar errors. I did that in couple of our Digital Ocean instances with same error (just to make sure if this occurs in all system). Then there was this old Ubuntu 14.04 instance where the source showed some hope of compiling.
 
