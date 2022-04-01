@@ -1,0 +1,11 @@
+:root {
+  /* --theme: #000000; */
+  --entry: #ffffff;
+  --primary: rgba(43, 62, 81, 1);
+  --secondary: rgba(43, 62, 81, 1);
+  --tertiary: rgba(43, 62, 81, 1);
+  --content: rgba(43, 62, 81, 1);
+  --code-bg: #f5f7fa;
+  /* --background: red; */
+  /* --border: #eee; */
+}

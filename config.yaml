@@ -1,4 +1,4 @@
-baseURL: 'https://drklrd.github.io/'
+baseURL: "https://drklrd.github.io/"
 languageCode: "en-us"
 title: "codeScape"
 theme: "PaperMod"
@@ -8,9 +8,9 @@ params:
   # home-info mode
   ShowShareButtons: true
   homeInfoParams:
-    Title: "Namaste 🙏"
+    Title: "Namaste (नमस्ते!) 🙏"
     Content: >
-      Warm welcome to my blogging place! I am Saurav. I love building things with maps. Currently, I am helping build [Baato.io](https://baato.io).
+      Warm welcome to my blogging place! I am Saurav. I love maps and building software tools/products with maps. Currently, I am helping build *[Baato](https://baato.io)*, a maps based APIs service for Nepal.
 
   socialIcons:
     - name: twitter
@@ -19,4 +19,3 @@ params:
       url: "https://github.com/drklrd"
     - name: openstreetmap
       url: "https://www.openstreetmap.org/user/srvbhattarai"
-    
