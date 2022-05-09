@@ -6,7 +6,29 @@
     <description>Recent content on codeScape</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jan 2022 10:18:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Mar 2022 20:35:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Along</title>
+      <link>https://drklrd.github.io/unturf/along/</link>
+      <pubDate>Thu, 31 Mar 2022 20:35:17 +0545</pubDate>
+      
+      <guid>https://drklrd.github.io/unturf/along/</guid>
+      <description>This section describes the working of Turf.js module Along.
+Purpose of this Turf.js module This takes a LineString as an input and returns a point at a specified distance from the starting. For more information and its usage visit its official documentation page.
+Pre-requisites for understanding this module   Haversine Formula and its Arctangent version
+ Basically, this formula calculates distance between two points over a spherical surface.    Measurement of angles in Radians</description>
+    </item>
+    
+    <item>
+      <title>Unturf</title>
+      <link>https://drklrd.github.io/posts/unturf/</link>
+      <pubDate>Thu, 31 Mar 2022 20:35:17 +0545</pubDate>
+      
+      <guid>https://drklrd.github.io/posts/unturf/</guid>
+      <description>I have been working with maps for some years now. But I have little tried to understand the core working of them. Realizing this, I am now trying to understand behind the scenes of many spatial concepts. I want to start that by understanding the functions behind TurfJS, thus the name &amp;ldquo;Unturf&amp;rdquo;.
+ Along  </description>
+    </item>
+    
     <item>
       <title>More Walks To Map Them All!</title>
       <link>https://drklrd.github.io/posts/few-more-walks-to-map-them-all/</link>
@@ -24,7 +46,7 @@ Lately, I have been on an evening mapping streak for some days with strolls arou
       
       <guid>https://drklrd.github.io/posts/jq/</guid>
       <description>There&amp;rsquo;s a lightweight and flexible command-line JSON processor called jq. It has wide range of capabilites but something that I came across lately and is quite useful for me is printing out the length of a JSON object.
-cat testjson.json | jq &#39;. | length&#39; </description>
+cat testjson.json | jq &amp;#39;. | length&amp;#39; </description>
     </item>
     
     <item>
