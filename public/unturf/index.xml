@@ -6,7 +6,18 @@
     <description>Recent content in Unturves on codeScape</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Mar 2022 20:35:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/unturf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 20:35:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/unturf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bbox</title>
+      <link>https://drklrd.github.io/unturf/bbox/</link>
+      <pubDate>Thu, 12 May 2022 20:35:17 +0545</pubDate>
+      
+      <guid>https://drklrd.github.io/unturf/bbox/</guid>
+      <description>This section describes the working of Turf.js module bbox.
+Purpose of this Turf.js module This takes point, or a line, or a polygon, or any set of features and returns a bounding box. For more information and its usage visit its official documentation page.
+Pre-requisites for understanding this module  The working of this module is very simple. So, basic knowledge of latitude (horizontal lines along Earth), longitude (vertical lines along Earth), and number comparision in enough.</description>
+    </item>
+    
     <item>
       <title>Along</title>
       <link>https://drklrd.github.io/unturf/along/</link>
