@@ -6,7 +6,18 @@
     <description>Recent content on codeScape</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Mar 2022 20:35:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 20:35:17 +0545</lastBuildDate><atom:link href="https://drklrd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bbox</title>
+      <link>https://drklrd.github.io/unturf/bbox/</link>
+      <pubDate>Thu, 12 May 2022 20:35:17 +0545</pubDate>
+      
+      <guid>https://drklrd.github.io/unturf/bbox/</guid>
+      <description>This section describes the working of Turf.js module bbox.
+Purpose of this Turf.js module This takes point, or a line, or a polygon, or any set of features and returns a bounding box. For more information and its usage visit its official documentation page.
+Pre-requisites for understanding this module  The working of this module is very simple. So, basic knowledge of latitude (horizontal lines along Earth), longitude (vertical lines along Earth), and number comparision in enough.</description>
+    </item>
+    
     <item>
       <title>Along</title>
       <link>https://drklrd.github.io/unturf/along/</link>
@@ -26,7 +37,7 @@ Pre-requisites for understanding this module   Haversine Formula and its Arctang
       
       <guid>https://drklrd.github.io/posts/unturf/</guid>
       <description>I have been working with maps for some years now. But I have little tried to understand the core working of them. Realizing this, I am now trying to understand behind the scenes of many spatial concepts. I want to start that by understanding the functions behind TurfJS, thus the name &amp;ldquo;Unturf&amp;rdquo;.
- Along  </description>
+ Along bbox  </description>
     </item>
     
     <item>
